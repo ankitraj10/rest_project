@@ -1,0 +1,57 @@
+
+
+/* meadia screen 1024px to 1200px:tablet computer*/
+
+@media only screen and (max-width:1200px){
+    .hero-text-box {
+    
+	width: 100%;
+	padding: 0 9%;
+	} 
+
+	logo{
+		height:50px;
+		width: auto;
+		margin-left: 50px;
+		float: left;
+	}
+
+}
+
+/* meadia screen 768px to 1023px:ipad*/
+
+
+@media only screen and (max-width:1023px){
+	.body{font-size:5px;}
+	.long-copy{width: 80%;margin-left: 10%;}
+	logo{
+		height:50px;
+		width: auto;
+		margin-left: 50px;
+		float: left;
+	}
+
+
+}
+
+/* meadia screen 488px to 767px:normal phones*/
+
+
+@media only screen and (max-width:767px){
+	logo{
+		height:20px;
+		width: auto;
+		margin-left: 5px;
+		float: left;
+	}
+
+
+}
+
+/* meadia screen 0px to 487px:smaller phone*/
+
+
+@media only screen and (max-width:487px){
+
+
+}
